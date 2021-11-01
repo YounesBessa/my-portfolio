@@ -1119,6 +1119,13 @@ img {
         grid-template-columns: .6fr;
         justify-content: center;
     }
+    .contact__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact__information:nth-child(2) {
+        margin-left: 62px;
+      }
 }
 
 @media screen and (min-width: 768px) {
