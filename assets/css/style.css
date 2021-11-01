@@ -534,7 +534,7 @@ img {
 }
 
 .skills__react {
-    width: 30%;
+    width: 70%;
 }
 
 .skills__php {
@@ -545,12 +545,12 @@ img {
     width: 70%;
 }
 
-.skills__firebase {
-    width: 40%;
+.skills__graphql {
+    width: 60%;
 }
 
-.skills__python {
-    width: 30%;
+.skills__mongodb {
+    width: 50%;
 }
 
 .skills__figma {
@@ -617,6 +617,7 @@ img {
     display: inline-block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
+    color: var(--text-color-light);
 }
 
 .qualification__calendar {
@@ -868,6 +869,15 @@ img {
     color: var(--text-color-light);
 }
 
+.other__link {
+    color: var(--text-color);
+    font-weight: var(--font-semi-bold);
+}
+
+.other__link:hover {
+    color: var(--first-color-lighter);
+}
+
 .testimonial__description {
     margin-bottom: var(--mb-2-5);
 }
@@ -882,8 +892,13 @@ img {
 
 /*==================== CONTACT ME ====================*/
 
-.contact__container {
+/* .contact__container {
     row-gap: 3rem;
+} */
+
+.contact__wrapper {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .contact__information {
